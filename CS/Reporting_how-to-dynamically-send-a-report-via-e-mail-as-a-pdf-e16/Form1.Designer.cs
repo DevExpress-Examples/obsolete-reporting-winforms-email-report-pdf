@@ -33,11 +33,11 @@ namespace SendReportAsEMailCS
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(100, 89);
+            this.button1.Location = new System.Drawing.Point(38, 39);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(134, 51);
+            this.button1.Size = new System.Drawing.Size(222, 51);
             this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
+            this.button1.Text = "Export report to PDF and send to email";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -45,7 +45,7 @@ namespace SendReportAsEMailCS
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(322, 254);
+            this.ClientSize = new System.Drawing.Size(297, 137);
             this.Controls.Add(this.button1);
             this.Name = "Form1";
             this.Text = "Form1";

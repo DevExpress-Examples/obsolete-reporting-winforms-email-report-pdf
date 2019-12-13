@@ -25,14 +25,21 @@ namespace SendReportAsEMailCS
                 // Create a new memory stream and export the report into it as PDF.
                 MemoryStream mem = new MemoryStream();
                 report.ExportToPdf(mem);
+                // Export report to PDF file
+                report.ExportToPdf("exportedFile.pdf");
 
                 // Create a new attachment and put the PDF report into it.
                 mem.Seek(0, System.IO.SeekOrigin.Begin);
                 Attachment att = new Attachment(mem, "TestReport.pdf", "application/pdf");
 
-                // Create a new message and attach the PDF report to it.
+                // Create second attachment and put the exported PDF report into it.
+                var currentFolder = Path.GetDirectoryName(this.GetType().Assembly.Location);
+                Attachment att2 = new Attachment(Path.Combine(currentFolder, "exportedFile.pdf"), "application/pdf");
+
+                // Create a new message and attach the PDF reports to it.
                 MailMessage mail = new MailMessage();
                 mail.Attachments.Add(att);
+                mail.Attachments.Add(att2);
 
                 // Specify sender and recipient options for the e-mail message.
                 mail.From = new MailAddress("someone@somewhere.com", "Someone");
@@ -46,7 +53,7 @@ namespace SendReportAsEMailCS
                 // Send the e-mail message via the specified SMTP server.
                 SmtpClient smtp = new SmtpClient("smtp.somewhere.com");
                 smtp.Send(mail);
-
+                
                 // Close the memory stream.
                 mem.Close();
                 mem.Flush();
