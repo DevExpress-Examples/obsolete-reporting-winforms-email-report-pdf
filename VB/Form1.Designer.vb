@@ -1,6 +1,4 @@
-Imports Microsoft.VisualBasic
-Imports System
-Namespace SendReportAsEMailCS
+﻿Namespace SendReportAsEMailCS
 	Partial Public Class Form1
 		''' <summary>
 		''' Required designer variable.
@@ -12,7 +10,7 @@ Namespace SendReportAsEMailCS
 		''' </summary>
 		''' <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
 		Protected Overrides Sub Dispose(ByVal disposing As Boolean)
-			If disposing AndAlso (Not components Is Nothing) Then
+			If disposing AndAlso (components IsNot Nothing) Then
 				components.Dispose()
 			End If
 			MyBase.Dispose(disposing)
@@ -34,9 +32,10 @@ Namespace SendReportAsEMailCS
 			Me.button1.Name = "button1"
 			Me.button1.Size = New System.Drawing.Size(134, 51)
 			Me.button1.TabIndex = 0
-			Me.button1.Text = "button1"
+			Me.button1.Text = "Send Email"
 			Me.button1.UseVisualStyleBackColor = True
-'			Me.button1.Click += New System.EventHandler(Me.button1_Click);
+'INSTANT VB NOTE: The following InitializeComponent event wireup was converted to a 'Handles' clause:
+'ORIGINAL LINE: this.button1.Click += new System.EventHandler(this.button1_Click);
 			' 
 			' Form1
 			' 
