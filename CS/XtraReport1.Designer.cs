@@ -1,4 +1,4 @@
-namespace SendReportAsEMailCS
+namespace SendReportAsEMail
 {
     partial class XtraReport1
     {
@@ -88,8 +88,8 @@ namespace SendReportAsEMailCS
             this.topMarginBand1,
             this.bottomMarginBand1});
             this.ExportOptions.Email.RecipientAddress = "test@test.com";
-            this.ExportOptions.Email.RecipientName = "RecipientName Test";
-            this.ExportOptions.Email.Subject = "Subject Test";
+            this.ExportOptions.Email.RecipientName = "Test";
+            this.ExportOptions.Email.Subject = "Test";
             this.Version = "20.2";
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
 

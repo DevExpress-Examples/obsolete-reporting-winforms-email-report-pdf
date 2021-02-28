@@ -1,4 +1,4 @@
-﻿Namespace SendReportAsEMailCS
+﻿Namespace SendReportAsEMail
 	Partial Public Class XtraReport1
 		''' <summary>
 		''' Required designer variable.
@@ -29,7 +29,7 @@
 			Me.PageFooter = New DevExpress.XtraReports.UI.PageFooterBand()
 			Me.topMarginBand1 = New DevExpress.XtraReports.UI.TopMarginBand()
 			Me.bottomMarginBand1 = New DevExpress.XtraReports.UI.BottomMarginBand()
-			CType(Me, System.ComponentModel.ISupportInitialize).BeginInit()
+			DirectCast(Me, System.ComponentModel.ISupportInitialize).BeginInit()
 			' 
 			' Detail
 			' 
@@ -77,10 +77,10 @@
 			' 
 			Me.Bands.AddRange(New DevExpress.XtraReports.UI.Band() { Me.Detail, Me.PageHeader, Me.PageFooter, Me.topMarginBand1, Me.bottomMarginBand1})
 			Me.ExportOptions.Email.RecipientAddress = "test@test.com"
-			Me.ExportOptions.Email.RecipientName = "RecipientName Test"
-			Me.ExportOptions.Email.Subject = "Subject Test"
+			Me.ExportOptions.Email.RecipientName = "Test"
+			Me.ExportOptions.Email.Subject = "Test"
 			Me.Version = "20.2"
-			CType(Me, System.ComponentModel.ISupportInitialize).EndInit()
+			DirectCast(Me, System.ComponentModel.ISupportInitialize).EndInit()
 
 		End Sub
 

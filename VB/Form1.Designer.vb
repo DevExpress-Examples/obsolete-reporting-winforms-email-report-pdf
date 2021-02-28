@@ -1,4 +1,4 @@
-﻿Namespace SendReportAsEMailCS
+﻿Namespace SendReportAsEMail
 	Partial Public Class Form1
 		''' <summary>
 		''' Required designer variable.
@@ -32,7 +32,7 @@
 			Me.button1.Name = "button1"
 			Me.button1.Size = New System.Drawing.Size(134, 51)
 			Me.button1.TabIndex = 0
-			Me.button1.Text = "Send Email"
+			Me.button1.Text = "button1"
 			Me.button1.UseVisualStyleBackColor = True
 'INSTANT VB NOTE: The following InitializeComponent event wireup was converted to a 'Handles' clause:
 'ORIGINAL LINE: this.button1.Click += new System.EventHandler(this.button1_Click);

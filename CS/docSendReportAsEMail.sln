@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.1259
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "docSendReportAsEMail", "docSendReportAsEMail.csproj", "{7F19E22C-7FAC-42DD-9976-7712AEB6E7B0}"
 EndProject
@@ -19,12 +19,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {46160E94-1C39-4708-B5B2-D44358B0B63C}
-	EndGlobalSection
-	GlobalSection(SourceCodeControl) = preSolution
-		SccNumberOfProjects = 2
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = docSendReportAsEMail.csproj
-		SccLocalPath1 = .
+		SolutionGuid = {1DDE6D9A-DB35-4F93-B54B-56266EB69409}
 	EndGlobalSection
 EndGlobal
