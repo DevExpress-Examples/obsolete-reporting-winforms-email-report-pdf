@@ -5,13 +5,12 @@
 * [Program.cs](./CS/Program.cs) (VB: [Program.vb](./VB/Program.vb))
 * [XtraReport1.cs](./CS/XtraReport1.cs) (VB: [XtraReport1.vb](./VB/XtraReport1.vb))
 <!-- default file list end -->
-# How to dynamically send a report via e-mail as a PDF
+# How to Email a Report as a Document in PDF
 
+This example demonstrates how to automatically send a report by e-mail. 
+The application exports a report to PDF and attaches the PDF document to the email message.
 
-<p>This example illustrates how to automatically send a report via e-mail. To do this, a report should first be exported into one of the available formats. In this example, a report is exported to PDF, since this format provides the best output quality (the PDF result is as close to a report's print result as possible).<br><br><strong>See also</strong>
+See also:
 
-* <a href="https://www.devexpress.com/Support/Center/p/T314020">How to send a report as HTML in an email body</a></p>
-
-<br/>
-
+* [How to send a report as HTML in an email body](https://github.com/DevExpress-Examples/Reporting_how-to-send-a-report-as-html-in-an-email-body-t314020)
 

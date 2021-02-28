@@ -4,7 +4,7 @@ using System.Collections;
 using System.ComponentModel;
 using DevExpress.XtraReports.UI;
 
-namespace SendReportAsEMailCS
+namespace SendReportAsEMail
 {
     public partial class XtraReport1 : DevExpress.XtraReports.UI.XtraReport
     {

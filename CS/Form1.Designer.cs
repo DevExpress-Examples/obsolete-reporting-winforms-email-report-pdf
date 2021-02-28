@@ -1,4 +1,4 @@
-namespace SendReportAsEMailCS
+namespace SendReportAsEMail
 {
     partial class Form1
     {
