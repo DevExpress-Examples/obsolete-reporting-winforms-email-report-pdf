@@ -7,10 +7,12 @@
 <!-- default file list end -->
 # How to Email a Report as a Document in PDF
 
-This example demonstrates how to automatically send a report by e-mail. 
-The application exports a report to PDF and attaches the PDF document to the email message.
+This example demonstrates how to send a report by e-mail. 
+
+* Export a report to PDF using the [XtraReport.ExportToPdf](https://docs.devexpress.com/XtraReports/DevExpress.XtraReports.UI.XtraReport.ExportToPdf.overloads?p=netframework) method.
+* Attach the PDF document to the [MailMessage](https://docs.microsoft.com/en-us/dotnet/api/system.net.mail.mailmessage?view=net-5.0).
 
 See also:
-
-* [How to send a report as HTML in an email body](https://github.com/DevExpress-Examples/Reporting_how-to-send-a-report-as-html-in-an-email-body-t314020)
+* [Documentation: Email Reports](https://docs.devexpress.com/XtraReports/17634/detailed-guide-to-devexpress-reporting/store-and-distribute-reports/export-reports/email-reports).
+* [How to send a report as HTML in an email body](https://github.com/DevExpress-Examples/Reporting_how-to-send-a-report-as-html-in-an-email-body-t314020);
 
