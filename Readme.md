@@ -9,6 +9,7 @@
 
 This example demonstrates how to send a report by e-mail. 
 
+Perform these steps:
 * Export a report to PDF using the [XtraReport.ExportToPdf](https://docs.devexpress.com/XtraReports/DevExpress.XtraReports.UI.XtraReport.ExportToPdf.overloads?p=netframework) method.
 * Attach the PDF document to the [MailMessage](https://docs.microsoft.com/en-us/dotnet/api/system.net.mail.mailmessage?view=net-5.0).
 
