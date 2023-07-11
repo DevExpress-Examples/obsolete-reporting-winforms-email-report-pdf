@@ -1,10 +1,10 @@
-# How to Email a Report as a Document in PDF 
+# How to Email a Report as a Document in PDF
 
 ⛔ DEPRECATED. This example was deprecated. Visit the repositories that contain the actual information:
 
 - [Reporting for WinForms - How to Use MailKit to Email a Report](https://github.com/DevExpress-Examples/reporting-winforms-mailkit-email-report-pdf)
 
-The current repository will not be updated in the future.
+The current repository will not be updated in the future. 
 
 ------
 
@@ -29,7 +29,7 @@ To email a report as a PDF attachment, do the following:
 
 ## Documentation
 
-- [Email Reports](http://docs.devexpress.devx/XtraReports/17634/detailed-guide-to-devexpress-reporting/store-and-distribute-reports/export-reports/email-reports)
+- [Email Reports](https://docs.devexpress.com/XtraReports/17634/detailed-guide-to-devexpress-reporting/store-and-distribute-reports/export-reports/email-reports)
 
 ## More Examples
 
